@@ -14,6 +14,7 @@
 		6E9CBA262A461351005EADE9 /* SimpleWebViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9CBA252A461351005EADE9 /* SimpleWebViewExampleTests.swift */; };
 		6E9CBA302A461351005EADE9 /* SimpleWebViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9CBA2F2A461351005EADE9 /* SimpleWebViewExampleUITests.swift */; };
 		6E9CBA322A461351005EADE9 /* SimpleWebViewExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9CBA312A461351005EADE9 /* SimpleWebViewExampleUITestsLaunchTests.swift */; };
+		6E9CBA3F2A4615E1005EADE9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E9CBA3E2A4615E1005EADE9 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6E9CBA2B2A461351005EADE9 /* SimpleWebViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWebViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9CBA2F2A461351005EADE9 /* SimpleWebViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWebViewExampleUITests.swift; sourceTree = "<group>"; };
 		6E9CBA312A461351005EADE9 /* SimpleWebViewExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWebViewExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E9CBA3E2A4615E1005EADE9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		6E9CBA132A46134E005EADE9 /* SimpleWebViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				6E9CBA3E2A4615E1005EADE9 /* index.html */,
 				6E9CBA142A46134E005EADE9 /* SimpleWebViewExampleApp.swift */,
 				6E9CBA162A46134E005EADE9 /* ContentView.swift */,
 				6E9CBA182A461350005EADE9 /* Assets.xcassets */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9CBA3F2A4615E1005EADE9 /* index.html in Resources */,
 				6E9CBA1C2A461350005EADE9 /* Preview Assets.xcassets in Resources */,
 				6E9CBA192A461350005EADE9 /* Assets.xcassets in Resources */,
 			);
